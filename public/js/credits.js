@@ -1,13 +1,3 @@
-var pages = {
-  top: './index.html',
-  bottom: '',
-  left: '',
-  right: ''
-}
-positionPointerFromPrevPage();
-if (previousPage.indexOf('index.html') != -1) {
-  setPointerPosition(documentSize.width * previousXPercent, 50)
-}
 
 /* Fancy scrolling adadpted from
 https://stackoverflow.com/questions/7717527/smooth-scrolling-when-clicking-an-anchor-link*/
