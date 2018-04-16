@@ -1,12 +1,87 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <meta name="google-site-verification" content="CL_T8eceY202VANQ9_J5DYZUwyYJSPVcqvoBWKfelXA" />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ title }}</p>
-  </body>
+
+<head>
+  <title>Tim Beck</title>
+  <meta charset='utf-8' />
+  <!-- Bootstrap CSS delivered by a CDN that I don't own -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' href='./css/index.css' />
+  <link rel='stylesheet' type='text/css' href='./css/credits.css' />
+</head>
+
+<body>
+  <div class="container-fluid gradient-body" id="home">
+    <nav class="navbar navbar-default navbar-light navbar-expand-sm bg-light fixed-top">
+      <a class="navbar-brand header-about" href="#">tim beck</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bellaNavbar" aria-controls="bellaNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bellaNavbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link spaced" href="#home">home<span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a class="nav-link spaced" href="#info">info</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link spaced" href="#portfolio">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link spaced" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- First Container -->
+    <div class="container body-text text-center">
+      <h1 class="display-1 header-about margin">tim beck</h1>
+      <img src="./img/tim.jpg" class="img-fluid rounded-circle margin" alt="Tim" width="561" height="561">
+      <h4 class="display-4 header-about margin">computer science & buisness student</h4>
+    </div>
+    <hr />
+
+    <!-- Second Container -->
+    <div class="container-fluid body-text text-center" id="info">
+      <h2 class="display-2 header-about margin">web development and more</h3>
+      <p>Here are some of my favorite technologies:</p><br />
+      <div class="logos" id="thingsILike">
+        <img src="./img/logos/python.png" width="300" alt="Python" />
+        <img src="./img/logos/node.png" width="300" alt="Node JS" />
+        <img src="./img/logos/rails.png" width="200" alt="Ruby on Rails" />
+        <img src="./img/logos/jquery.jpg" width="300" alt="jQuery" />
+        <img src="./img/logos/git.png" width="300" alt="git" />
+      </div>
+    </div>
+    <hr />
+
+    <!-- Portfolio Container -->
+    <div class="container-fluid body-text text-center" id="portfolio">
+      <h2 class="display-2 header-about margin">my work</h3>
+      <a href="https://github.com/door-bell"><img src="./img/logos/github.png" alt="github" /></a>
+    </div>
+    <hr />
+
+    <!-- Contact -->
+    <div class="container-fluid text-center" id="contact">
+      <h3 class="display-3 header-about margin">contact me</h3>
+      <a href="mailto:socaltdb@gmail.com">email</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+      <p>Copyright Timothy Beck 2018</p>
+    </footer>
+  </div>
+
+  <script src='./js/jquery-3.3.1.min.js'></script>
+  <script src="./js/inviewport.jquery.js"></script>
+  <!-- Additional Bootstrap files from a CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src='./js/credits.js'></script>
+</body>
+
 </html>
