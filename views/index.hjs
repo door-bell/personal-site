@@ -38,13 +38,13 @@
     <div class="container body-text text-center">
       <h1 class="display-1 header-about margin">tim beck</h1>
       <img src="./img/tim.jpg" class="img-fluid rounded-circle margin" alt="Tim" width="561" height="561">
-      <h4 class="display-4 header-about margin">computer science & buisness student</h4>
+      <h4 class="display-4 header-about margin">computer science & business student</h4>
     </div>
     <hr />
 
     <!-- Second Container -->
     <div class="container-fluid body-text text-center" id="info">
-      <h2 class="display-2 header-about margin">web development and more</h3>
+      <h2 class="display-2 header-about margin">web development and more</h2>
       <p>Here are some of my favorite technologies:</p><br />
       <div class="logos" id="thingsILike">
         <img src="./img/logos/python.png" width="300" alt="Python" />
@@ -58,14 +58,14 @@
 
     <!-- Portfolio Container -->
     <div class="container-fluid body-text text-center" id="portfolio">
-      <h2 class="display-2 header-about margin">my work</h3>
+      <h2 class="display-2 header-about margin">my work</h2>
       <a href="https://github.com/door-bell"><img src="./img/logos/github.png" alt="github" id="githubLink"/></a>
     </div>
     <hr />
 
     <!-- Contact -->
     <div class="container-fluid text-center" id="contact">
-      <h3 class="display-3 header-about margin">contact me</h3>
+      <h3 class="display-3 header-about margin">contact me</h2>
       <a href="mailto:socaltdb@gmail.com">email</a>
     </div>
 
