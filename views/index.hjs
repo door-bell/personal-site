@@ -46,12 +46,14 @@
     <div class="container-fluid body-text text-center" id="info">
       <h2 class="display-2 header-about margin">web development and more</h2>
       <p>Here are some of my favorite technologies:</p><br />
-      <div class="logos" id="thingsILike">
-        <img src="./img/logos/python.png" width="300" alt="Python" />
-        <img src="./img/logos/node.png" width="300" alt="Node JS" />
-        <img src="./img/logos/rails.png" width="200" alt="Ruby on Rails" />
-        <img src="./img/logos/jquery.jpg" width="300" alt="jQuery" />
-        <img src="./img/logos/git.png" width="300" alt="git" />
+      <div class="row" id="thingsILike">
+        <div class="col-md-10 col-lg-12">
+          <img src="./img/logos/python.png" width="300" alt="Python" />
+          <img src="./img/logos/node.png" width="300" alt="Node JS" />
+          <img src="./img/logos/rails.png" width="200" alt="Ruby on Rails" />
+          <img src="./img/logos/jquery.jpg" width="300" alt="jQuery" />
+          <img src="./img/logos/git.png" width="300" alt="git" />
+        </div>
       </div>
     </div>
     <hr />
@@ -66,8 +68,13 @@
     <!-- Contact -->
     <div class="container-fluid text-center" id="contact">
       <h3 class="display-3 header-about margin">contact me</h2>
-      <a href="mailto:socaltdb@gmail.com">email</a>
-    </div>
+        <div class="row justify-content-center contact-container">
+          <div class="col-md-6">
+            <a href="mailto:socaltdb@gmail.com">email</a>
+            <a href="https://www.linkedin.com/in/timothy-beck-3a7576155/">Linkedin</a>
+          </div>
+        </div>
+      </div>
 
     <!-- Footer -->
     <footer class="container-fluid text-center">
