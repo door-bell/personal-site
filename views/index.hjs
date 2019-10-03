@@ -51,7 +51,7 @@
     <div class="container-fluid body-text text-center" id="info">
       <h2 class="display-2 header-about margin">web development and more</h2>
       <p>Here are some of my favorite technologies:</p><br />
-      <div class="row" id="thingsILike">
+      <div class="row logos" id="thingsILike">
         <div class="col-md-10 col-lg-12">
           <img src="./img/logos/python.png" width="300" alt="Python" />
           <img src="./img/logos/node.png" width="300" alt="Node JS" />
