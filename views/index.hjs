@@ -35,6 +35,9 @@
           <li class="nav-item">
             <a class="nav-link spaced" href="#contact">contact</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link spaced" href="https://blog.timbeck.me">blog</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -43,7 +46,7 @@
     <div class="container body-text text-center">
       <h1 class="display-1 header-about margin">tim beck</h1>
       <img src="./img/tim.jpg" class="img-fluid rounded-circle margin" alt="Tim" width="561" height="561">
-      <h4 class="display-4 header-about margin">computer science & business student</h4>
+      <h4 class="display-4 header-about margin">computer science - software engineering</h4>
     </div>
     <hr />
 
