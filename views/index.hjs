@@ -53,14 +53,17 @@
     <!-- Second Container -->
     <div class="container-fluid body-text text-center" id="info">
       <h2 class="display-2 header-about margin">web development and more</h2>
-      <p>Here are some of my favorite technologies:</p><br />
       <div class="row logos" id="thingsILike">
         <div class="col-md-10 col-lg-12">
-          <img src="./img/logos/python.png" width="300" alt="Python" />
-          <img src="./img/logos/node.png" width="300" alt="Node JS" />
-          <img src="./img/logos/rails.png" width="200" alt="Ruby on Rails" />
-          <img src="./img/logos/jquery.jpg" width="300" alt="jQuery" />
-          <img src="./img/logos/git.png" width="300" alt="git" />
+          <img src="./img/logos/python.png" width="250" alt="Python" />
+          <img src="./img/logos/node.png" width="250" alt="Node JS" />
+          <img src="./img/logos/js.png" width="250" alt="JavaScript" />
+          <img src="./img/logos/typescript.svg" width="250" alt="TypeScript" />
+          <img src="./img/logos/git.png" width="250" alt="git" />
+          <img src="./img/logos/bash.png" width="250" alt="BASH" />
+          <img src="./img/logos/java.png" width="250" alt="Java" />
+          <img src="./img/logos/csharp.png" width="250" alt="C Sharp" />
+          <img src="./img/logos/intellij.png" width="250" alt="intellij" />
         </div>
       </div>
     </div>
