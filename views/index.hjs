@@ -53,7 +53,7 @@
 
     <!-- Second Container -->
     <div class="container-fluid body-text text-center" id="info">
-      <h2 class="display-2 header-about margin">web development and more</h2>
+      <h2 class="display-2 header-about margin">tech &amp; tools</h2>
       <div class="row logos" id="thingsILike">
         <div class="col-md-10 col-lg-12">
           <img src="./img/logos/python.png" width="250" alt="Python" />
