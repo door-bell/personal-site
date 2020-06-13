@@ -69,7 +69,7 @@
     <!-- Portfolio Container -->
     <div class="container-fluid body-text text-center" id="portfolio">
       <h2 class="display-2 header-about margin">my work</h2>
-      <a href="https://github.com/door-bell"><img src="./img/logos/github.png" alt="github" id="githubLink"/></a>
+      <a href="https://github.com/door-bell"><img src="./img/logos/github_PNG20.png" alt="github" id="githubLink"/></a>
     </div>
     <hr />
 

@@ -98,7 +98,7 @@ p {
 }
 
 #githubLink {
-  max-width: 70%;
+  max-width: 40%;
   height: auto;
   width: auto\9; /* ie8 */
 }
